@@ -1,4 +1,4 @@
-var brands = require('../data/brands.js')
+var brands = require('./data/brands.js')
 
 exports["test replace"] = function(assert) {
   var observed = brands.replace('hsaoehoeu aoe  oeht Lightlife tnoaetnsoeu')
